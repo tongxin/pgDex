@@ -1,0 +1,411 @@
+# depslib dependency file v1.0
+1495782709 source:/home/cai/Documents/codeblocks/Dex/fun.c
+	"postgres.h"
+	"fmgr.h"
+	"utils/geo_decls.h"
+	"utils/array.h"
+	"catalog/pg_type.h"
+	"utils/builtins.h"
+	"storage/backendid.h"
+	"funcapi.h"
+	"dex.h"
+
+1488735872 /opt/postgresql-9.4/include/server/postgres.h
+	"c.h"
+	"utils/elog.h"
+	"utils/palloc.h"
+
+1488735872 /opt/postgresql-9.4/include/server/c.h
+	"postgres_ext.h"
+	"pg_config.h"
+	"pg_config_manual.h"
+	"pg_config_os.h"
+	<crtdefs.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<stdarg.h>
+	<strings.h>
+	<stdint.h>
+	<sys/types.h>
+	<errno.h>
+	<fcntl.h>
+	"pg_config_os.h"
+	<locale.h>
+	<libintl.h>
+	<assert.h>
+	"port.h"
+
+1488735872 /opt/postgresql-9.4/include/server/postgres_ext.h
+	"pg_config_ext.h"
+
+1488735872 /opt/postgresql-9.4/include/server/pg_config_ext.h
+
+1488735872 /opt/postgresql-9.4/include/server/pg_config.h
+
+1488735872 /opt/postgresql-9.4/include/server/pg_config_manual.h
+
+1488735872 /opt/postgresql-9.4/include/server/pg_config_os.h
+
+1488735872 /opt/postgresql-9.4/include/server/port.h
+	<ctype.h>
+	<netdb.h>
+	<pwd.h>
+	<io.h>
+	<sys/stat.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+
+1488735873 /opt/postgresql-9.4/include/server/utils/elog.h
+	<setjmp.h>
+	"utils/errcodes.h"
+
+1488735873 /opt/postgresql-9.4/include/server/utils/errcodes.h
+
+1488735873 /opt/postgresql-9.4/include/server/utils/palloc.h
+
+1488735872 /opt/postgresql-9.4/include/server/fmgr.h
+
+1488735873 /opt/postgresql-9.4/include/server/utils/geo_decls.h
+	<math.h>
+	"fmgr.h"
+
+1488735873 /opt/postgresql-9.4/include/server/utils/array.h
+	"fmgr.h"
+
+1488735872 /opt/postgresql-9.4/include/server/catalog/pg_type.h
+	"catalog/genbki.h"
+
+1488735872 /opt/postgresql-9.4/include/server/catalog/genbki.h
+
+1488735873 /opt/postgresql-9.4/include/server/utils/builtins.h
+	"fmgr.h"
+	"nodes/parsenodes.h"
+
+1488735872 /opt/postgresql-9.4/include/server/nodes/parsenodes.h
+	"nodes/bitmapset.h"
+	"nodes/primnodes.h"
+	"nodes/value.h"
+
+1488735872 /opt/postgresql-9.4/include/server/nodes/bitmapset.h
+
+1488735872 /opt/postgresql-9.4/include/server/nodes/primnodes.h
+	"access/attnum.h"
+	"nodes/pg_list.h"
+
+1488735872 /opt/postgresql-9.4/include/server/access/attnum.h
+
+1488735872 /opt/postgresql-9.4/include/server/nodes/pg_list.h
+	"nodes/nodes.h"
+
+1488735872 /opt/postgresql-9.4/include/server/nodes/nodes.h
+
+1488735872 /opt/postgresql-9.4/include/server/nodes/value.h
+	"nodes/nodes.h"
+
+1486145274 source:/home/cai/Documents/codeblocks/Dex/main.c
+	"dex.h"
+
+1495597193 source:/home/cai/Documents/codeblocks/Dex/clusterHost.c
+	"clusterHost.h"
+	"dexDataModel.h"
+	<stdio.h>
+	<unistd.h>
+	"postgres.h"
+	"fmgr.h"
+	"executor/executor.h"
+	"executor/spi.h"
+	"utils/geo_decls.h"
+
+1488735872 /opt/postgresql-9.4/include/server/executor/executor.h
+	"executor/execdesc.h"
+	"nodes/parsenodes.h"
+
+1488735872 /opt/postgresql-9.4/include/server/executor/execdesc.h
+	"nodes/execnodes.h"
+	"tcop/dest.h"
+
+1488735872 /opt/postgresql-9.4/include/server/nodes/execnodes.h
+	"access/genam.h"
+	"access/heapam.h"
+	"executor/instrument.h"
+	"nodes/params.h"
+	"nodes/plannodes.h"
+	"utils/reltrigger.h"
+	"utils/sortsupport.h"
+	"utils/tuplestore.h"
+
+1488735872 /opt/postgresql-9.4/include/server/access/genam.h
+	"access/sdir.h"
+	"access/skey.h"
+	"nodes/tidbitmap.h"
+	"storage/lock.h"
+	"utils/relcache.h"
+	"utils/snapshot.h"
+
+1488735872 /opt/postgresql-9.4/include/server/access/sdir.h
+
+1488735872 /opt/postgresql-9.4/include/server/access/skey.h
+	"access/attnum.h"
+	"fmgr.h"
+
+1488735872 /opt/postgresql-9.4/include/server/nodes/tidbitmap.h
+	"storage/itemptr.h"
+
+1488735873 /opt/postgresql-9.4/include/server/storage/itemptr.h
+	"storage/block.h"
+	"storage/off.h"
+
+1488735873 /opt/postgresql-9.4/include/server/storage/block.h
+
+1488735873 /opt/postgresql-9.4/include/server/storage/off.h
+	"storage/itemid.h"
+
+1488735873 /opt/postgresql-9.4/include/server/storage/itemid.h
+
+1488735873 /opt/postgresql-9.4/include/server/storage/lock.h
+	"storage/backendid.h"
+	"storage/lwlock.h"
+	"storage/shmem.h"
+
+1488735873 /opt/postgresql-9.4/include/server/storage/backendid.h
+
+1488735873 /opt/postgresql-9.4/include/server/storage/lwlock.h
+	"storage/s_lock.h"
+
+1488735873 /opt/postgresql-9.4/include/server/storage/s_lock.h
+	<sys/tas.h>
+	<alpha/builtins.h>
+	<ia64/sys/inline.h>
+	<sys/atomic_op.h>
+
+1488735873 /opt/postgresql-9.4/include/server/storage/shmem.h
+	"utils/hsearch.h"
+
+1488735873 /opt/postgresql-9.4/include/server/utils/hsearch.h
+
+1488735873 /opt/postgresql-9.4/include/server/utils/relcache.h
+	"access/tupdesc.h"
+	"nodes/bitmapset.h"
+
+1488735872 /opt/postgresql-9.4/include/server/access/tupdesc.h
+	"access/attnum.h"
+	"catalog/pg_attribute.h"
+	"nodes/pg_list.h"
+
+1488735872 /opt/postgresql-9.4/include/server/catalog/pg_attribute.h
+	"catalog/genbki.h"
+
+1488735873 /opt/postgresql-9.4/include/server/utils/snapshot.h
+	"access/htup.h"
+	"storage/buf.h"
+
+1488735872 /opt/postgresql-9.4/include/server/access/htup.h
+	"storage/itemptr.h"
+
+1488735873 /opt/postgresql-9.4/include/server/storage/buf.h
+
+1488735872 /opt/postgresql-9.4/include/server/access/heapam.h
+	"access/sdir.h"
+	"access/skey.h"
+	"nodes/primnodes.h"
+	"storage/bufpage.h"
+	"storage/lock.h"
+	"utils/relcache.h"
+	"utils/snapshot.h"
+
+1488735873 /opt/postgresql-9.4/include/server/storage/bufpage.h
+	"access/xlogdefs.h"
+	"storage/block.h"
+	"storage/item.h"
+	"storage/off.h"
+
+1488735872 /opt/postgresql-9.4/include/server/access/xlogdefs.h
+	<fcntl.h>
+
+1488735873 /opt/postgresql-9.4/include/server/storage/item.h
+
+1488735872 /opt/postgresql-9.4/include/server/executor/instrument.h
+	"portability/instr_time.h"
+
+1488735873 /opt/postgresql-9.4/include/server/portability/instr_time.h
+	<sys/time.h>
+
+1488735872 /opt/postgresql-9.4/include/server/nodes/params.h
+
+1488735872 /opt/postgresql-9.4/include/server/nodes/plannodes.h
+	"access/sdir.h"
+	"nodes/bitmapset.h"
+	"nodes/primnodes.h"
+
+1488735873 /opt/postgresql-9.4/include/server/utils/reltrigger.h
+
+1488735873 /opt/postgresql-9.4/include/server/utils/sortsupport.h
+	"access/attnum.h"
+
+1488735873 /opt/postgresql-9.4/include/server/utils/tuplestore.h
+	"executor/tuptable.h"
+
+1488735872 /opt/postgresql-9.4/include/server/executor/tuptable.h
+	"access/htup.h"
+	"access/tupdesc.h"
+	"storage/buf.h"
+
+1488735873 /opt/postgresql-9.4/include/server/tcop/dest.h
+	"executor/tuptable.h"
+
+1488735872 /opt/postgresql-9.4/include/server/executor/spi.h
+	"lib/ilist.h"
+	"nodes/parsenodes.h"
+	"utils/portal.h"
+
+1488735872 /opt/postgresql-9.4/include/server/lib/ilist.h
+
+1488735873 /opt/postgresql-9.4/include/server/utils/portal.h
+	"datatype/timestamp.h"
+	"executor/execdesc.h"
+	"utils/plancache.h"
+	"utils/resowner.h"
+
+1488735872 /opt/postgresql-9.4/include/server/datatype/timestamp.h
+	<math.h>
+	<limits.h>
+	<float.h>
+
+1488735873 /opt/postgresql-9.4/include/server/utils/plancache.h
+	"access/tupdesc.h"
+	"nodes/params.h"
+
+1488735873 /opt/postgresql-9.4/include/server/utils/resowner.h
+
+1488735872 /opt/postgresql-9.4/include/server/funcapi.h
+	"fmgr.h"
+	"access/tupdesc.h"
+	"executor/executor.h"
+	"executor/tuptable.h"
+
+1495439977 /home/cai/Documents/codeblocks/Dex/clusterHost.h
+	"common.h"
+
+1495441692 /home/cai/Documents/codeblocks/Dex/common.h
+
+1495619508 source:/home/cai/Documents/codeblocks/Dex/common.c
+	<stdarg.h>
+	"common.h"
+	"postgres.h"
+	<string.h>
+
+1498642344 /home/cai/Documents/codeblocks/Dex/dex.h
+	<stdlib.h>
+	<stdio.h>
+	"dexBase.h"
+	"clusterHost.h"
+	"dexConfiguration.h"
+
+1495445831 /home/cai/Documents/codeblocks/Dex/dexBase.h
+	"common.h"
+	"MsgType.h"
+
+1495509854 /home/cai/Documents/codeblocks/Dex/dexDataModel.h
+	"MsgType.h"
+	"dexBase.h"
+
+1495525871 /home/cai/Documents/codeblocks/Dex/MsgType.h
+	"common.h"
+	"network.h"
+
+1495530806 /home/cai/Documents/codeblocks/Dex/network.h
+	"common.h"
+
+1495683417 source:/home/cai/Documents/codeblocks/Dex/dex.c
+	"dex.h"
+	"dexConnection.h"
+	"dexDataFrame.h"
+	"postgres.h"
+	"fmgr.h"
+	"utils/geo_decls.h"
+
+1495465978 /home/cai/Documents/codeblocks/Dex/dexConfiguration.h
+	"dexBase.h"
+
+1495506605 /home/cai/Documents/codeblocks/Dex/dexConnection.h
+	"dexBase.h"
+	"common.h"
+	"clusterHost.h"
+
+1495508676 /home/cai/Documents/codeblocks/Dex/dexDataFrame.h
+	"dexBase.h"
+
+1495696044 source:/home/cai/Documents/codeblocks/Dex/dexConfiguration.c
+	"dexConfiguration.h"
+	"dexDataModel.h"
+	"postgres.h"
+	"fmgr.h"
+	"utils/geo_decls.h"
+	"executor/spi.h"
+	"executor/executor.h"
+
+1495696630 source:/home/cai/Documents/codeblocks/Dex/dexConnection.c
+	"dexConnection.h"
+	"dexProtocol.h"
+	"postgres.h"
+
+1498639597 /home/cai/Documents/codeblocks/Dex/dexProtocol.h
+	"MsgType.h"
+	"network.h"
+	"dexProtocol.h"
+	"dexBase.h"
+
+1495702789 source:/home/cai/Documents/codeblocks/Dex/dexDataFrame.c
+	"dexDataFrame.h"
+	"dexProtocol.h"
+	"dexDataModel.h"
+	"dexIterator.h"
+	"postgres.h"
+	"fmgr.h"
+	"executor/spi.h"
+	"executor/executor.h"
+
+1484102232 /home/cai/Documents/codeblocks/Dex/dexIterator.h
+	"common.h"
+
+1495729764 source:/home/cai/Documents/codeblocks/Dex/dexDataModel.c
+	"postgres.h"
+	"fmgr.h"
+	"executor/spi.h"
+	"utils/elog.h"
+	"utils/geo_decls.h"
+	"dexDataModel.h"
+
+1498642170 source:/home/cai/Documents/codeblocks/Dex/dexProtocol.c
+	"dexProtocol.h"
+	"postgres.h"
+	"fmgr.h"
+	<zmq.h>
+
+1470063416 /opt/zeromq/include/zmq.h
+	<errno.h>
+	<stddef.h>
+	<stdio.h>
+	<winsock2.h>
+	<inttypes.h>
+	<stdint.h>
+
+1498642186 source:/home/cai/Documents/codeblocks/Dex/dexSession.c
+	"dexSession.h"
+	"dexProtocol.h"
+
+1498642316 /home/cai/Documents/codeblocks/Dex/dexSession.h
+	"dexBase.h"
+
+1495784951 source:/home/cai/Documents/codeblocks/Dex/network.c
+	"network.h"
+	<zmq.h>
+	<unistd.h>
+	"postgres.h"
+
+1495783515 source:/home/cai/Documents/codeblocks/Dex/MsgType.c
+	"MsgType.h"
+	"postgres.h"
+

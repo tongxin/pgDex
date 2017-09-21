@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="dexConnection.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="282" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="dexSession.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="205" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="MsgType.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="209" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="dexBase.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="287" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="network.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="387" topLine="252" />
+		</Cursor>
+	</File>
+	<File name="dex_cluster.conf" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="dexProtocol.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2095" topLine="70" />
+		</Cursor>
+		<Folding>
+			<Collapse line="74" />
+			<Collapse line="81" />
+		</Folding>
+	</File>
+	<File name="clusterHost.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="137" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="network.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="867" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="dexDataFrame.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1143" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="dex.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="996" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="dexProtocol.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="781" topLine="11" />
+		</Cursor>
+		<Folding>
+			<Collapse line="12" />
+			<Collapse line="20" />
+		</Folding>
+	</File>
+	<File name="dexConfiguration.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3832" topLine="39" />
+		</Cursor>
+		<Folding>
+			<Collapse line="84" />
+			<Collapse line="93" />
+		</Folding>
+	</File>
+	<File name="common.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="351" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="dexConfiguration.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="248" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="dexSession.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="129" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="dex.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2316" topLine="87" />
+		</Cursor>
+	</File>
+	<File name="fun.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2424" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="dexConnection.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1052" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="common.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1698" topLine="55" />
+		</Cursor>
+	</File>
+	<File name="dexDataModel.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8746" topLine="274" />
+		</Cursor>
+		<Folding>
+			<Collapse line="202" />
+			<Collapse line="216" />
+			<Collapse line="218" />
+			<Collapse line="241" />
+			<Collapse line="246" />
+			<Collapse line="266" />
+			<Collapse line="279" />
+			<Collapse line="296" />
+			<Collapse line="310" />
+			<Collapse line="315" />
+			<Collapse line="319" />
+			<Collapse line="321" />
+			<Collapse line="339" />
+			<Collapse line="353" />
+			<Collapse line="356" />
+			<Collapse line="363" />
+			<Collapse line="372" />
+			<Collapse line="391" />
+			<Collapse line="394" />
+			<Collapse line="401" />
+			<Collapse line="406" />
+			<Collapse line="413" />
+			<Collapse line="432" />
+		</Folding>
+	</File>
+	<File name="clusterHost.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4648" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="dexDataModel.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="218" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="MsgType.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="250" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="dexDataFrame.c" open="1" top="1" tabpos="8" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4012" topLine="54" />
+		</Cursor>
+		<Folding>
+			<Collapse line="24" />
+			<Collapse line="29" />
+			<Collapse line="34" />
+			<Collapse line="37" />
+			<Collapse line="41" />
+			<Collapse line="47" />
+			<Collapse line="52" />
+			<Collapse line="57" />
+			<Collapse line="81" />
+			<Collapse line="107" />
+			<Collapse line="165" />
+			<Collapse line="182" />
+			<Collapse line="196" />
+			<Collapse line="210" />
+			<Collapse line="216" />
+		</Folding>
+	</File>
+</CodeBlocks_layout_file>

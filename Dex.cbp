@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Dex" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Dex" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../../opt/postgresql-9.4/include/server" />
+					<Add directory="../../../../../opt/zeromq/include" />
+				</Compiler>
+				<Linker>
+					<Add library="/opt/zeromq/lib/libzmq.so" />
+					<Add library="/opt/postgresql-9.4/lib/libpq.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_win.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_uhc.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_sjis2004.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_sjis.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_johab.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_iso8859_1.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_iso8859.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_gbk.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_gb18030.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_euc_tw.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_euc_kr.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_euc_jp.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_euc_cn.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_euc2004.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_cyrillic.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_big5.so" />
+					<Add library="/opt/postgresql-9.4/lib/utf8_and_ascii.so" />
+					<Add library="/opt/postgresql-9.4/lib/plpgsql.so" />
+					<Add library="/opt/postgresql-9.4/lib/libpqwalreceiver.so" />
+					<Add library="/opt/postgresql-9.4/lib/libpq.so" />
+					<Add library="/opt/postgresql-9.4/lib/libpq.a" />
+					<Add library="/opt/postgresql-9.4/lib/libpgtypes.so" />
+					<Add library="/opt/postgresql-9.4/lib/libpgtypes.a" />
+					<Add library="/opt/postgresql-9.4/lib/libpgport.a" />
+					<Add library="/opt/postgresql-9.4/lib/libpgcommon.a" />
+					<Add library="/opt/postgresql-9.4/lib/libecpg_compat.so" />
+					<Add library="/opt/postgresql-9.4/lib/libecpg_compat.a" />
+					<Add library="/opt/postgresql-9.4/lib/libecpg.so" />
+					<Add library="/opt/postgresql-9.4/lib/libecpg.a" />
+					<Add library="/opt/postgresql-9.4/lib/latin_and_mic.so" />
+					<Add library="/opt/postgresql-9.4/lib/latin2_and_win1250.so" />
+					<Add library="/opt/postgresql-9.4/lib/euc_tw_and_big5.so" />
+					<Add library="/opt/postgresql-9.4/lib/euc_kr_and_mic.so" />
+					<Add library="/opt/postgresql-9.4/lib/euc_jp_and_sjis.so" />
+					<Add library="/opt/postgresql-9.4/lib/euc_cn_and_mic.so" />
+					<Add library="/opt/postgresql-9.4/lib/euc2004_sjis2004.so" />
+					<Add library="/opt/postgresql-9.4/lib/dict_snowball.so" />
+					<Add library="/opt/postgresql-9.4/lib/cyrillic_and_mic.so" />
+					<Add library="/opt/postgresql-9.4/lib/ascii_and_mic.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Dex" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="MsgType.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MsgType.h" />
+		<Unit filename="dex_cluster.conf" />
+		<Unit filename="clusterHost.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clusterHost.h" />
+		<Unit filename="common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="common.h" />
+		<Unit filename="dex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dex.h" />
+		<Unit filename="dexBase.h" />
+		<Unit filename="dexConfiguration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dexConfiguration.h" />
+		<Unit filename="dexConnection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dexConnection.h" />
+		<Unit filename="dexDataFrame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dexDataFrame.h" />
+		<Unit filename="dexDataModel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dexDataModel.h" />
+		<Unit filename="dexProtocol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dexProtocol.h" />
+		<Unit filename="dexSession.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dexSession.h" />
+		<Unit filename="fun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="network.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="network.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
